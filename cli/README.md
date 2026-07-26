@@ -113,24 +113,6 @@ repoverse --help
 
 ---
 
-## ⚙️ Configuration
-
-Before using the CLI, configure the backend URL inside:
-
-```
-config.js
-```
-
-Example:
-
-```javascript
-const BACKEND_URL = "https://your-backend-url.onrender.com";
-```
-
-Replace the placeholder URL with your deployed backend before using the CLI.
-
----
-
 ## 📚 Available Commands
 
 ### 🚀 Initialize Repository
@@ -319,19 +301,6 @@ repoverse revert <commit-id>
 The CLI communicates with the **RepoVerse Backend API**.
 
 Before using the CLI, ensure the backend server is running or deployed and that the backend URL inside `config.js` points to the correct server.
-
----
-
-## 🌐 Related Components
-
-- [Backend](../backend)
-- [Frontend](../frontend)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 

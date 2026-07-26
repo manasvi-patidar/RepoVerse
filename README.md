@@ -8,6 +8,18 @@ The project demonstrates concepts such as repository management, snapshot-based 
 
 ---
 
+## 🌐 Live Demo
+
+### 🖥️ Frontend
+
+🔗 https://repo-verse-two.vercel.app
+
+### ⚙️ Backend API
+
+🔗 https://repoverse-backend-3xit.onrender.com
+
+---
+
 ## 📦 Repository Components
 
 RepoVerse is organized into three independent yet interconnected applications, each responsible for a specific part of the system.

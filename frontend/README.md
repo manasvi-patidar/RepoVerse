@@ -6,6 +6,13 @@ The RepoVerse Frontend provides an intuitive and responsive interface for intera
 
 ---
 
+## 🌐 Live Demo
+
+🖥️ Frontend:
+https://repo-verse-two.vercel.app
+
+---
+
 ## ✨ Features
 
 - User Registration and Login
@@ -208,7 +215,7 @@ The frontend is configured for deployment on **Vercel**.
 Required environment variable:
 
 ```env
-VITE_API_URL=https://your-backend-url.onrender.com/api
+VITE_API_URL=https://repoverse-backend-3xit.onrender.com/api
 ```
 
 After deployment, the frontend communicates directly with the deployed RepoVerse Backend hosted on Render.
@@ -233,12 +240,6 @@ After deployment, the frontend communicates directly with the deployed RepoVerse
 
 - [Backend](../backend)
 - [CLI](../cli)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 

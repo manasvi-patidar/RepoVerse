@@ -239,19 +239,6 @@ Supported CLI operations include:
 
 ---
 
-## 🌐 Related Components
-
-- [Frontend](../frontend)
-- [CLI](../cli)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 👨‍💻 Author
 
 **Manasvi Patidar**
