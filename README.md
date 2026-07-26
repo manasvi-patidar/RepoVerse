@@ -246,4 +246,4 @@ RepoVerse/
 
 **Manasvi Patidar**
 
-RepoVerse was developed as a full-stack academic project to explore distributed version control concepts, REST API development, authentication, repository management, issue tracking, and command-line application development using the MERN stack and Node.js.
+RepoVerse is developed as a full-stack project to explore distributed version control concepts, REST API development, authentication, repository management, issue tracking, and command-line application development using the MERN stack and Node.js.
