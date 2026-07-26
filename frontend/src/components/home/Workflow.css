@@ -1,0 +1,72 @@
+.workflow {
+  background: white;
+}
+
+.workflow-header {
+  max-width: 650px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.workflow-header p {
+  margin-top: 18px;
+  color: var(--color-text-light);
+}
+
+.workflow-list {
+  position: relative;
+}
+
+.workflow-item {
+  display: flex;
+  gap: 25px;
+  position: relative;
+  padding-bottom: 45px;
+}
+
+.workflow-icon {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #eff6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-primary);
+}
+
+.workflow-content h3 {
+  margin: 10px 0;
+}
+
+.workflow-content p {
+  color: var(--color-text-light);
+  max-width: 650px;
+}
+
+.workflow-command {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  background: #eff6ff;
+  padding: 5px 10px;
+  border-radius: 999px;
+}
+
+.workflow-line {
+  position: absolute;
+  left: 27px;
+  top: 60px;
+  width: 2px;
+  height: 40px;
+  background: var(--color-border);
+}
+
+@media (max-width: 768px) {
+  .workflow-item {
+    align-items: flex-start;
+  }
+}

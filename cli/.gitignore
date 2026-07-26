@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Package lock
+package-lock.json
+
+# Local configuration
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+.repoverse/

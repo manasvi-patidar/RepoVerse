@@ -1,0 +1,82 @@
+.hero {
+  padding: 90px 0;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #e0edff;
+  color: var(--color-primary);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 22px;
+}
+
+.hero-description {
+  color: var(--color-text-light);
+  font-size: 1.05rem;
+  max-width: 550px;
+  margin-bottom: 35px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+/* Card */
+
+.hero-card {
+  padding: 28px;
+}
+
+.hero-card h3 {
+  margin-bottom: 30px;
+}
+
+.hero-card-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.hero-card-item:last-child {
+  border-bottom: none;
+}
+
+.hero-card-item span {
+  color: var(--color-text-light);
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+
+    text-align: center;
+  }
+
+  .hero-description {
+    margin-inline: auto;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+}

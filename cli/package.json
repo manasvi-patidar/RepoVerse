@@ -1,0 +1,32 @@
+{
+  "name": "repoverse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "repoverse": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "version-control",
+    "cli",
+    "nodejs",
+    "git",
+    "repository",
+    "repoverse"
+  ],
+  "author": "Manasvi Patidar",
+  "license": "ISC",
+  "description": "Repoverse CLI",
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "axios": "^1.18.1",
+    "chalk": "^4.1.2",
+    "commander": "^14.0.3",
+    "form-data": "^4.0.6",
+    "inquirer": "^8.2.6",
+    "unzipper": "^0.12.5",
+    "uuid": "^14.0.1"
+  }
+}

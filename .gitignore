@@ -1,0 +1,30 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor Settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Environment Files
+.env
+.env.*
+!.env.example
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Archives
+*.zip
+
+# Node Package Manager
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

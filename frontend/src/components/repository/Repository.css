@@ -1,0 +1,78 @@
+.repository-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+
+  padding: 20px;
+  transition:
+    border-color 0.2s ease,
+    transform 0.15s ease;
+}
+
+.repository-card:hover {
+  border-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+.repository-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.repository-header h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.repository-description {
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 22px;
+  min-height: 48px;
+}
+
+.repository-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #9ca3af;
+  font-size: 0.85rem;
+
+  border-top: 1px solid #f3f4f6;
+  padding-top: 14px;
+}
+
+.visibility {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.visibility.public {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.visibility.private {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+@media (max-width: 768px) {
+  .repository-header,
+  .repository-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

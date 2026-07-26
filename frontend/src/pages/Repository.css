@@ -1,0 +1,62 @@
+.repository-page {
+  max-width: 950px;
+}
+
+.repository-info {
+  margin-top: 28px;
+  margin-bottom: 42px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
+}
+
+.repository-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.repository-title {
+  margin-bottom: 10px;
+}
+
+.repository-description {
+  color: #6b7280;
+  line-height: 1.7;
+  max-width: 700px;
+}
+
+.repository-actions {
+  display: flex;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.repository-section {
+  margin-bottom: 48px;
+}
+
+.section-title {
+  margin-bottom: 22px;
+}
+
+.issues-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+@media (max-width: 768px) {
+  .repository-top,
+  .issues-header,
+  .repository-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .repository-actions .btn,
+  .issues-header .btn {
+    width: 100%;
+  }
+}
